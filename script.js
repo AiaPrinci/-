@@ -16,3 +16,7 @@ box.addEventListener('mouseenter', () => {
 box.addEventListener('mouseleave', () => {
     boxLayer.style.visibility = 'hidden';
 });
+
+box.addEventListener('click', () => {
+    boxLayer.style.visibility = 'visible';
+})
